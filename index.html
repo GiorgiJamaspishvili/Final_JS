@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script
+      src="https://kit.fontawesome.com/d4e5e958a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" href="photos/beer-mug-icon.svg" type="image/icon type" />
+    <title>BeerMania</title>
+  </head>
+
+  <body>
+    <div class="main_conteiner">
+      <!-- home Header -->
+
+      <header class="home_page_header">
+        <i class="fa-solid fa-beer-mug-empty menu_bar_icon"></i>
+
+        <nav class="header_nav">
+          <i class="fa-solid fa-xmark close_icon"></i>
+          <ul class="header_ul">
+            <li><a class="nav_a home_a" href="index.html">Home</a></li>
+            <li><a class="nav_a" href="shop.html">Shop</a></li>
+            <li><a class="nav_a a" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <p class="main_logo">Beer<span class="logo_span">Mania</span></p>
+        </div>
+
+        <div class="header_icon_div">
+          <a class="header_a_icon" href="contact.html">Beer Up</a>
+        </div>
+      </header>
+
+      <!-- Main Photo -->
+
+      <div class="div_for_mainphot">
+        <img class="mainphoto" src="./photos/brewery.jpg" alt="" />
+        <img class="mobile_main_photo" src="./photos/brew_1.jpg" alt="" />
+        <div class="text_div">
+          <h1 class="animate__pulse">History of beer</h1>
+          <p class="text animate__pulse">
+            Beer is one of the oldest human-produced drinks. The first
+            chemically confirmed barley-beer – from the area of modern-day Iran
+            – dates back to the 5th millennium BC. The written history of
+            ancient Egypt and Mesopotamia records the use of beer, and the drink
+            has spread throughout the world
+          </p>
+
+          <button class="main_phoot_btn">
+            <a class="main_phoot_a" href="shop.html">Must Taste!</a>
+          </button>
+        </div>
+      </div>
+
+      <!-- Sec1 Acc -->
+      <section>
+        <div class="accordion_container">
+          <h2 class="acc_txt">Accordion</h2>
+          <div class="accordion-item">
+            <h2 class="accordion-title">Early Beers</h2>
+            <p class="desrc-accordion">
+              As almost any cereal containing certain sugars can undergo
+              spontaneous fermentation due to wild yeasts in the air, it is
+              possible that beer-like drinks were independently developed
+              throughout the world soon after a tribe or culture had
+              domesticated cereal.
+            </p>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-title">Medieval Europe</h2>
+            <p class="desrc-accordion">
+              Beer was one of the most common drinks during the Middle Ages. It
+              was consumed daily by all social classes in the northern and
+              eastern parts of Europe where grape cultivation was difficult or
+              impossible.
+            </p>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-title">Early modern Europe</h2>
+            <p class="desrc-accordion">
+              In Europe, beer brewing largely remained a home activity in
+              medieval times. By the 14th and 15th centuries, beermaking was
+              gradually changing from a family-oriented activity to an artisan
+              one, with pubs and monasteries brewing their own beer for mass
+              consumption.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 2 -->
+
+
+    <section class="sec_2">
+      <div class="slider_wrapper" id="slider_wrapper">
+        <button class="arrow arrow_left" id="arrow_left"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="arrow arrow_right" id="arrow_right"><i class="fa-solid fa-arrow-right"></i></button>
+
+
+        <div class="slider_content" id="slider_content">
+
+        </div>
+      </div>
+    </section>
+
+
+
+      <div class="second_main_photo_div">
+        <img
+          class="second_main_photo"
+          src="./photos/second_main_photo_div.png"
+          alt=""
+        />
+        <div class="txt_div">
+          <h2 class="div_h2">Subscribe to Newsletter</h2>
+
+          <form class="email" action="">
+            <input
+              class="input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Addres"
+            />
+            <button class="home_page_submit_btn" type="submit">
+              SUBSCRIBE
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- article -->
+
+      <article class="home_page_article">
+        <h2 class="article_h2">The Best Beer?</h2>
+        <div class="article_p_div">
+          <div class="article_div">
+            <h4 class="home_page_articleh4">Europe</h4>
+            <p>
+              In Europe, beer brewing largely remained a home activity in medieval times. By the 14th and 15th centuries, beermaking was gradually changing from a family-oriented activity to an artisan one, with pubs and monasteries brewing their own beer for mass consumption.
+            </p>
+          </div>
+          <div class="article_div">
+            <h4 class="home_page_articleh4">Asia</h4>
+            <p>
+              Documented evidence and recently excavated tombs indicate that the Chinese brewed alcoholic drinks from both malted grain and grain converted by mold from prehistoric times, but that the malt conversion process was largely considered inefficient in comparison with the use of molds specially cultivated on rice carrier.
+            </p>
+          </div>
+          <div class="article_div">
+            <h4 class="home_page_articleh4">USA</h4>
+            <p>
+              Prior to Prohibition, there were thousands of breweries in the United States, mostly brewing heavier beers than modern US beer drinkers are used to. Beginning in 1920, most of these breweries went out of business, although some converted to soft drinks and other businesses.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- div for help -->
+
+      <div class="div_for_help">
+        <h2 class="div_for_help_h2">
+          Have a question? Well, we’ve got some answers.
+        </h2>
+        <button class="help_btn">Go to Help Center</button>
+      </div>
+
+      <!-- footer -->
+
+      <footer>
+        <div class="ft_div">
+          <h4 class="ft_h4">Help</h4>
+          <p class="ft_p1">Help Center</p>
+          <p>Privacy Settings</p>
+          <div class="footer_icon_div">
+            <a href=" https://www.youtube.com/ ">
+              <i class="fa-brands fa-youtube youtube"></i>
+            </a>
+
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook facebook"></i
+            ></a>
+          </div>
+        </div>
+        <img class="ft_logo" src="./photos/img_beer_logo.jpg" alt="" />
+        <div class="contact_div">
+          <a class="tel" href="tel:+123 45 67  89">+123 45 67 89</a>
+          <a class="mail" href="mailto:example@mail.com">example@mail.com</a>
+          <a
+            class="map"
+            href="http://goo.gl/maps/2tS39RatZdvn7NWR6"
+            target="_blank"
+            >Rustaveli avenue, 30</a
+          >
+        </div>
+      </footer>
+
+      <!-- <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+      <script src="node_modules/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
+      <script>
+        const splide = new Splide('.splide', {
+          type: 'loop',
+          drag: 'free',
+          arrows: false,
+          pagination: false,
+          focus: 'center',
+          autoScroll: {
+            speed: 1.5,
+          },
+          perPage: 3,
+          breakpoints: {
+            930: {
+              perPage: 2,
+              gap: '.7rem',
+            },
+            550: {
+              perPage: 1,
+              gap: '.7rem',
+            },
+          },
+        });
+
+        splide.mount(window.splide.Extensions);
+      </script> -->
+    </div>
+
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

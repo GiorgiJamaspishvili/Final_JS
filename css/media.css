@@ -1,0 +1,836 @@
+/* 1024px / 768px / 480px */
+
+@media(max-width:1700px) {
+
+    .home_page_header {
+        padding: 26px 150px;
+
+    }
+
+
+}
+
+@media(max-width:1600px) {
+
+    /* Shop Page */
+
+    .shop_text_div {
+        top: 40%;
+
+    }
+
+    .div_for_contact {
+        width: 30%;
+    }
+}
+
+@media(max-width:1500px) {
+    footer {
+        padding: 32px 280px 57px 280px;
+
+    }
+
+    /* shop Page */
+
+    .search_div {
+        width: 60%;
+    }
+
+    .div_for_contact {
+        width: 35%;
+    }
+}
+
+@media(max-width:1400px) {
+
+    .home_page_header {
+        padding: 26px 50px;
+
+    }
+
+
+    .div_for_home_page_photo {
+
+        width: 70%;
+    }
+
+    .div_for_position {
+        padding: 10px 15px;
+        top: 75%;
+        left: 38%;
+        transform: translate(-75%, -38%);
+    }
+
+    .txt_div {
+        width: 40%;
+    }
+
+    table {
+        width: 30%;
+    }
+
+    /* Contact Page */
+
+    .div_for_contact {
+        width: 40%;
+    }
+
+
+}
+
+@media(max-width:1300px) {
+    .mainphoto {
+        height: 650px;
+    }
+
+    .section_3_photodiv {
+        width: 100%;
+    }
+
+    footer {
+        padding: 32px 200px 57px 200px;
+
+    }
+
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+
+
+    .contact_article {
+        margin: 150px auto;
+        width: 65%;
+
+    }
+}
+
+@media(max-width:1200px) {
+
+    .text_div {
+        width: 70%;
+    }
+
+    .main_phoot_btn {
+        width: 40%;
+    }
+
+    .txt_div {
+        width: 50%;
+    }
+
+    /* shop Page */
+
+
+    .search_div {
+        width: 70%;
+    }
+
+    .shop_input {
+        padding: 19px 50px 19px 5px;
+
+    }
+
+    .shop_section {
+        width: 95%;
+
+    }
+
+    .p_for_dolar {
+        font-size: 1.25rem;
+
+    }
+
+    .product_icon {
+        font-size: 1.5rem;
+    }
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+    .div_for_contact {
+        width: 45%;
+    }
+
+    .contact_article {
+        width: 70%;
+        margin: 140px auto;
+
+    }
+}
+
+@media(max-width:1100px) {
+
+
+    .home_figcaption {
+        font-size: 1rem;
+
+    }
+
+    .section_3 {
+        margin: 130px auto;
+        width: 90%;
+    }
+
+    footer {
+        padding: 32px 100px 57px 100px;
+
+    }
+
+    table {
+        width: 35%;
+    }
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+
+    .contact_main_photo {
+
+        height: 700px;
+    }
+
+    .contact_article {
+        width: 75%;
+        margin: 130px auto;
+
+    }
+}
+
+@media(max-width:1000px) {
+
+    .home_page_header {
+        padding: 26px 20px;
+
+    }
+
+    ul {
+        gap: 30px;
+    }
+
+
+    .div_h2 {
+        margin-bottom: 30px;
+    }
+
+    .txt_div {
+        width: 60%;
+    }
+
+    /* Shop Page */
+
+
+
+    .search_div {
+        width: 80%;
+    }
+
+    .shop_input {
+        padding: 19px 40px 19px 5px;
+
+    }
+
+    .down_figure_div {
+        display: none;
+    }
+
+
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+
+
+    .contact_main_photo {
+
+        height: 680px;
+    }
+
+    .div_for_contact {
+        width: 50%;
+    }
+
+    .contact_article {
+        width: 80%;
+        margin: 120px auto;
+
+    }
+}
+
+@media(max-width:900px) {
+    .mainphoto {
+
+        height: 600px;
+    }
+
+    footer {
+        padding: 32px 20px 57px 20px;
+
+    }
+
+    /* Shop Page */
+
+
+    .shop_h5 {
+        font-size: 1rem;
+    }
+
+    .p_for_dolar {
+        font-size: 1rem;
+
+    }
+
+    .product_icon {
+        font-size: 1.25rem;
+        background: none;
+    }
+
+    table {
+        width: 40%;
+    }
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+
+
+
+    .contact_main_photo {
+
+        height: 650px;
+    }
+
+    .div_for_contact {
+
+        width: 55%;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .contact_article {
+        width: 85%;
+        margin: 110px auto;
+
+    }
+}
+
+@media(max-width:800px) {
+
+
+    .div_for_mobile_responsive {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .photo_for_mobile_responsive {
+        width: 100%;
+    }
+
+    .section_3 {
+        width: 100%;
+    }
+
+    .txt_div {
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .email {
+        width: 90%;
+    }
+
+    .div_h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+
+
+    .home_page_article {
+        width: 90%;
+
+    }
+
+    /* Artwor Page */
+
+    .search_div {
+        width: 90%;
+    }
+
+    .shop_input {
+        padding: 19px 0px 19px 5px;
+
+    }
+
+    .for_mobile-responsive {
+        display: none;
+    }
+
+    .shop_figure {
+        width: 31%;
+    }
+
+    table {
+        width: 45%;
+    }
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+    .contact_main_photo {
+
+        height: 630px;
+    }
+
+    .div_for_contact {
+
+        width: 60%;
+    }
+
+    .contact_article {
+        width: 90%;
+        margin: 100px auto;
+
+    }
+}
+
+@media(max-width:750px) {
+    .div_for_contact {
+        top: 60%;
+    }
+
+    .main_logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media(max-width:700px) {
+    .menu_bar_icon {
+        display: flex;
+        align-items: center;
+        font-size: 2.300rem;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .close_icon {
+        display: flex;
+        align-self: flex-start;
+        margin: 5px 0px 0px 15px;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    .header_ul {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_nav {
+        width: 40%;
+        padding-bottom: 15px;
+        flex-direction: column;
+        align-items: center;
+        background: #B53B1B;
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        transition: 1s;
+    }
+
+    .gaqroba_gamochena {
+        left: 0;
+    }
+
+
+    .mainphoto {
+
+        height: 500px;
+    }
+
+    .text_div {
+        top: 60%;
+        width: 90%;
+    }
+
+    .home_page_figure {
+        width: 70%;
+    }
+
+   
+
+    .second_main_photo {
+        height: 200px;
+    }
+
+    .txt_div {
+        width: 80%;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .home_page_submit_btn {
+        font-size: 1rem;
+    }
+
+    .input::placeholder {
+        font-size: 1rem;
+
+    }
+
+    .home_page_article {
+        margin: 120px auto 80px auto;
+
+    }
+
+    .article_p_div {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .article_div {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .ft_div {
+        align-items: center;
+
+    }
+
+    .footer_icon_div {
+        margin-top: 30px;
+
+
+    }
+
+    .contact_div {
+        align-items: center;
+    }
+
+    /* shop page */
+
+  
+
+
+    .shop_h5 {
+
+        font-size: 1.25rem;
+    }
+
+    .shop_br {
+        display: flex;
+    }
+
+    .shop_h5::after {
+        font-size: 1.5rem;
+    }
+
+    .shop_section {
+        width: 80%;
+    }
+
+    .category_div {
+        width: 80%;
+        margin-inline: auto;
+
+    }
+
+    .category_h2 {
+        font-size: 2rem;
+    }
+
+    .top_figur_div {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .shop_figure {
+        width: 80%;
+    }
+
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+    .contact_main_photo {
+
+        height: 610px;
+    }
+
+    .div_for_contact {
+
+        width: 70%;
+    }
+
+    .div_contact {
+        width: 100%;
+    }
+
+    .contact_article {
+        margin: 90px auto;
+    }
+
+    .contact_article_div {
+
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .article_contact_main_div {
+        padding-left: 30px;
+    }
+
+    .contact_map {
+        width: 100%;
+
+    }
+
+}
+
+
+@media(max-width:600px) {
+
+
+
+    .mainphoto {
+        display: none;
+    }
+
+    .text_div {
+        width: 100%;
+    }
+
+    .mobile_main_photo {
+        display: flex;
+        width: 100%;
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 1.80rem;
+    }
+
+    .text {
+        margin: 16px 0px 22px 0px;
+
+    }
+
+
+    .txt_div {
+        width: 90%;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .email {
+        width: 78%;
+    }
+
+    .div_h2 {
+
+        font-size: 1.5rem;
+    }
+
+    .div_h2 {
+
+        margin-bottom: 15px;
+    }
+
+    .home_page_article {
+        margin: 60px auto 28px auto;
+
+    }
+
+    .article_p_div {
+        gap: 20px;
+    }
+
+    .div_for_position {
+
+        top: 80%;
+        left: 25%;
+        transform: translate(-80%, -30%);
+
+    }
+
+
+    /* shop Page */
+
+
+    .shop_h2 {
+        font-size: 1.5rem;
+    }
+
+    .shop_btn {
+        padding: 15px 40px;
+
+    }
+
+    .search_div {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        width: 80%;
+    }
+
+    .search_form {
+        width: 100%;
+    }
+
+    .shop_br {
+        display: none;
+    }
+
+    .category_div {
+        width: 100%;
+
+
+    }
+
+    .category_p {
+        font-size: 1.2rem;
+    }
+
+    .category_p::after {
+        font-size: 1.2rem;
+    }
+
+    .shop_figure {
+        width: 100%;
+    }
+
+    table {
+        width: 60%;
+    }
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+
+    .contact_main_photo {
+        display: none;
+
+    }
+
+    .contact_mobile_main_photo {
+        width: 100%;
+
+        display: flex;
+
+    }
+
+    .div_for_contact {
+        top: 62%;
+        width: 80%;
+    }
+
+    .contact_article {
+        margin: 80px auto;
+    }
+}
+
+
+@media(max-width:500px) {
+    .home_page_header {
+        padding: 26px 15px;
+
+    }
+
+
+    .txt_div {
+        width: 100%;
+
+    }
+
+    .email {
+        width: 90%;
+    }
+
+    .shop_section {
+        width: 90%;
+    }
+
+    table {
+        width: 75%;
+    }
+
+    /* Contact page */
+
+    /* MAin PhoTo For Contact Page */
+
+    .contact_mobile_main_photo {
+        height: 560px;
+    }
+
+    .div_for_contact {
+        width: 90%;
+    }
+
+    .div_contact {
+        padding: 24px 10px;
+    }
+
+    .contact_form {
+        gap: 20px;
+    }
+
+    .contact_article {
+        margin: 70px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
