@@ -1,125 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <script src="https://kit.fontawesome.com/d4e5e958a8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="icon" href="image/clay.png" type="image/icon type">
-    <link rel="icon" href="photos/beer-mug-icon.svg" type="image/icon type">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script
+      src="https://kit.fontawesome.com/d4e5e958a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" href="image/clay.png" type="image/icon type" />
+    <link rel="icon" href="photos/beer-mug-icon.svg" type="image/icon type" />
     <title>BeerMania</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="main_conteiner">
-        <!-- contact header -->
+      <!-- contact header -->
 
-        <header class="home_page_header">
-            <i class="fa-solid fa-beer-mug-empty menu_bar_icon "></i>
+      <header class="home_page_header">
+        <i class="fa-solid fa-beer-mug-empty menu_bar_icon"></i>
 
-            <nav class="header_nav">
-                <i class="fa-solid fa-xmark close_icon "></i>
-                <ul class="header_ul">
-                    <li><a class="nav_a  " href="index.html">Home</a></li>
-                    <li><a class="nav_a  " href="shop.html">Shop</a></li>
-                    <li><a class="nav_a contact_a " href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <nav class="header_nav">
+          <i class="fa-solid fa-xmark close_icon"></i>
+          <ul class="header_ul">
+            <li><a class="nav_a" href="index.html">Home</a></li>
+            <li><a class="nav_a" href="shop.html">Shop</a></li>
+            <li><a class="nav_a contact_a" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
 
-            <div>
-                <p class="main_logo">Beer<span class="logo_span">Mania</span></p>
-            </div>
+        <div>
+          <p class="main_logo">Beer<span class="logo_span">Mania</span></p>
+        </div>
 
-            <div class="header_icon_div">
-                <a class="header_a_icon" href="contact.html">Beer Up</a>
-            </div>
+        <div class="header_icon_div">
+          <a class="header_a_icon" href="contact.html">Beer Up</a>
+        </div>
+      </header>
 
-        </header>
+      <i class="fa-solid fa-arrow-up-from-ground-water" id="upup"></i>
 
-        <!-- section 1 -->
+      <!-- section 1 -->
 
-        <section class="section_for_main_photo">
-            <img class="contact_main_photo" src="./image/contact main photo.png" alt="">
-            <img class="contact_mobile_main_photo" src="./image/contact mobile main photo.png" alt="">
-            <div class="div_for_contact">
-                <div class="div_contact">
-                    <h2 class="contact_h2">Get in Touch</h2>
-                    <form class="contact_form" method="get">
-                        <div class="name_email_div">
-                            <input class="contact_input" type="text" placeholder="Full Name">
-                            <input class="contact_input" type="email" placeholder="Email">
-                        </div>
-                        <textarea class="message_contact" name="" id="" placeholder="Message"></textarea>
+      <section class="section_for_main_photo">
+        <img class="contact_main_photo" src="./photos/8crafted.jpg" alt="">
+        <img class="contact_mobile_main_photo" src="./photos/beer_sparkles.jpg" alt="">
+        <div class="div_for_contact">
+            <div class="div_contact">
 
-
-                        <button class="contact_submit_btn" type="submit"><span
-                                class="contact_span">SUBMIT</span></button>
-                    </form>
+              <!-- <form action="" id="registration-form" method="post">
+                <div>
+                  <label for="username-field"> Username</label>
+                  <input type="text" name="username" id="username-field" />
+                  <p class="error-text" id="error-username"></p>
                 </div>
-            </div>
-        </section>
-
-        <!-- article -->
-
-        <article class="contact_article">
-            <h2 class="contact_article_h2">Contact</h2>
-            <div class="contact_article_div">
-                <div class="article_contact_main_div">
-                    <div class="article_contact_little_div">
-                        <p class="contact_aticle_p">Call Us</p>
-                        <a href="tel:+123 45 67 89">+123 45 67 89</a>
-                    </div>
-                    <div class="article_contact_little_div">
-                        <p class="contact_aticle_p">Email Us</p>
-                        <a href="mailto:example@mail.com">example@mail.com</a>
-                    </div>
-                    <div class="article_contact_little_div">
-                        <p class="contact_aticle_p">Address</p>
-                        <a href="http://goo.gl/maps/2tS39RatZdvn7NWR6" target="_blank">Rustaveli avenue, 30</a>
-                    </div>
+                <div>
+                  <label for="password-field"> Password</label>
+                  <input type="password" name="password" id="password-field1" />
+                  <i id="toggleIcon" class="fa-solid fa-eye"></i>
+                  <p class="error-text" id="error-password"></p>
                 </div>
-                <iframe class="contact_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.9114116760707!2d44.79371501566299!3d41.
+                <div>
+                  <label for="password-field2"> Repeat Password</label>
+                  <input type="password" name="password2" id="password-field2" />
+                  <p class="error-text" id="error-password2"></p>
+                </div>
+                <div>
+                  <label for="emailField">Email</label>
+                  <input type="email" id="emailField" name="myemail" />
+                  <p id="error-email"></p>
+                </div>
+                <div>
+                  <input type="radio" name="age" id="age1" />
+                  <label for="age1">18-30</label>
+                  <input type="radio" name="age" id="age2" />
+                  <label for="age2">30-50</label>
+                  <p class="error-text" id="error-age"></p>
+                </div>
+                <div>
+                  <input type="checkbox" name="agree" id="agree" />
+                  <label for="agree">I agree terms and conditions</label>
+                  <p class="error-text" id="error-agree"></p>
+                </div>
+                <button type="submit">Submit</button>
+              </form> -->
+              
+
+              <form action="#" id="registration-form" method="post">
+                <div class="form_div2 userdiv">
+                  <div class="div_4">
+                    <label for="username-field">Username</label>
+                    <input type="text" name="username" id="username-field" /> <input type="checkbox" id="save">
+                    <p class="error-text" id="error-username"></p>
+                  </div>
+                  <div class="div_4">
+                    <label for="password-field">Password</label>
+                    <input type="password" name="password" id="password-field" />
+                    <i id="toggleIcon" class="fa-solid fa-eye"></i>
+                    <p class="error-text" id="error-password"></p>
+                  </div>
+                  <div class="div_4">
+                    <label for="password-field2">Repeat Password</label>
+                    <input type="password" name="password2" id="password-field2" />
+                    <p class="error-text" id="error-password2"></p>
+                  </div>
+                  <div class="div_4">
+                    <label for="emailField">Your Email</label>
+                    <input type="email" id="emailField" name="myemail" />
+                    <p class="error-email"></p>
+                  </div>
+    
+                  <div>
+                    <input type="radio" name="age" id="age1" />
+                    <label for="age1">18-30</label>
+                    <input type="radio" name="age" id="age2" />
+                    <label for="age1">30-50</label>
+                    <input type="radio" name="age" id="age3" />
+                    <label for="age1">50+</label>
+                    <p class="error-text" id="error-age"></p>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="agree" id="agree" />
+                    <label for="agree">I Agree Terms And Conditions </label>
+                    <p class="error-text" id="error-agree"></p>
+                  </div>
+                  <div>
+                    
+                  </div>
+                  <input type="submit" class="validateBtn" value="Submit" />
+                </div>
+              </form>
+
+
+
+
+            </div>
+            
+        </div>
+    </section>
+
+
+
+      <!-- article -->
+
+      <article class="contact_article">
+        <h2 class="contact_article_h2">Contact</h2>
+        <div class="contact_article_div">
+          <div class="article_contact_main_div">
+            <div class="article_contact_little_div">
+              <p class="contact_aticle_p">Call Us</p>
+              <a href="tel:+123 45 67 89">+123 45 67 89</a>
+            </div>
+            <div class="article_contact_little_div">
+              <p class="contact_aticle_p">Email Us</p>
+              <a href="mailto:example@mail.com">example@mail.com</a>
+            </div>
+            <div class="article_contact_little_div">
+              <p class="contact_aticle_p">Address</p>
+              <a href="http://goo.gl/maps/2tS39RatZdvn7NWR6" target="_blank"
+                >Rustaveli avenue, 30</a
+              >
+            </div>
+          </div>
+          <iframe
+            class="contact_map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.9114116760707!2d44.79371501566299!3d41.
                     70084808446633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cdda1d2d4d7%3A0xe30fd49502a2dd79!2z4Y
                     OX4YOR4YOY4YOa4YOY4YOh4YOY4YOhIOGDneGDnuGDlOGDoOGDmOGDoeGDkCDhg5Phg5Ag4YOR4YOQ4YOa4YOU4YOi4YOY4YOhIOGDl-GDlOGDkOGDouGDoOGDmA!5e0!3m2!1
-                    ska!2sge!4v1679857084693!5m2!1ska!2sge" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </article>
+                    ska!2sge!4v1679857084693!5m2!1ska!2sge"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </article>
 
-  
+      <footer>
+        <div class="ft_div">
+          <h4 class="ft_h4">Help</h4>
+          <p class="ft_p1">Help Center</p>
+          <p>Privacy Settings</p>
+          <div class="footer_icon_div">
+            <a href=" https://www.youtube.com/ ">
+              <i class="fa-brands fa-youtube youtube"></i>
+            </a>
 
-
-        <footer>
-            <div class="ft_div">
-                <h4 class="ft_h4">Help</h4>
-                <p class="ft_p1">Help Center</p>
-                <p>Privacy Settings</p>
-                <div class="footer_icon_div">
-      
-                    <a href=" https://www.youtube.com/ "> <i class="fa-brands fa-youtube youtube "></i> </a>
-      
-                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram "></i> </a>
-                    <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook facebook "></i></a>
-      
-      
-                </div>
-            </div>
-            <img class="ft_logo" src="./photos/img_beer_logo.jpg" alt="">
-            <div class="contact_div">
-              
-                <a class="tel" href="tel:+123 45 67  89">+123 45 67 89</a>
-                <a class="mail" href="mailto:example@mail.com">example@mail.com</a>
-                <a class="map" href="http://goo.gl/maps/2tS39RatZdvn7NWR6" target="_blank">Rustaveli avenue, 30</a>
-            </div>
-        </footer>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook facebook"></i
+            ></a>
+          </div>
+        </div>
+        <img class="ft_logo" src="./photos/img_beer_logo.jpg" alt="" />
+        <div class="contact_div">
+          <a class="tel" href="tel:+123 45 67  89">+123 45 67 89</a>
+          <a class="mail" href="mailto:example@mail.com">example@mail.com</a>
+          <a
+            class="map"
+            href="http://goo.gl/maps/2tS39RatZdvn7NWR6"
+            target="_blank"
+            >Rustaveli avenue, 30</a
+          >
+        </div>
+      </footer>
     </div>
 
-
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

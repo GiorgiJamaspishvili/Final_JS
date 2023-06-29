@@ -44,6 +44,8 @@
         </div>
       </header>
 
+      <i class="fa-solid fa-arrow-up-from-ground-water" id="upup"></i>
+
       <!-- Main Photo -->
 
       <div class="div_for_mainphot">
@@ -103,20 +105,21 @@
 
       <!-- section 2 -->
 
+      <!-- <section class="sec_2">
+        <div class="slider_wrapper" id="slider_wrapper">
+          <button class="arrow arrow_left" id="arrow_left">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="arrow arrow_right" id="arrow_right">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
 
-    <section class="sec_2">
-      <div class="slider_wrapper" id="slider_wrapper">
-        <button class="arrow arrow_left" id="arrow_left"><i class="fa-solid fa-arrow-left"></i></button>
-        <button class="arrow arrow_right" id="arrow_right"><i class="fa-solid fa-arrow-right"></i></button>
-
-
-        <div class="slider_content" id="slider_content">
-
+          <div class="slider_content" id="slider_content"></div>
         </div>
-      </div>
-    </section>
+      </section> -->
 
 
+      <!-- Newsletter field -->
 
       <div class="second_main_photo_div">
         <img
@@ -150,19 +153,32 @@
           <div class="article_div">
             <h4 class="home_page_articleh4">Europe</h4>
             <p>
-              In Europe, beer brewing largely remained a home activity in medieval times. By the 14th and 15th centuries, beermaking was gradually changing from a family-oriented activity to an artisan one, with pubs and monasteries brewing their own beer for mass consumption.
+              In Europe, beer brewing largely remained a home activity in
+              medieval times. By the 14th and 15th centuries, beermaking was
+              gradually changing from a family-oriented activity to an artisan
+              one, with pubs and monasteries brewing their own beer for mass
+              consumption.
             </p>
           </div>
           <div class="article_div">
             <h4 class="home_page_articleh4">Asia</h4>
             <p>
-              Documented evidence and recently excavated tombs indicate that the Chinese brewed alcoholic drinks from both malted grain and grain converted by mold from prehistoric times, but that the malt conversion process was largely considered inefficient in comparison with the use of molds specially cultivated on rice carrier.
+              Documented evidence and recently excavated tombs indicate that the
+              Chinese brewed alcoholic drinks from both malted grain and grain
+              converted by mold from prehistoric times, but that the malt
+              conversion process was largely considered inefficient in
+              comparison with the use of molds specially cultivated on rice
+              carrier.
             </p>
           </div>
           <div class="article_div">
             <h4 class="home_page_articleh4">USA</h4>
             <p>
-              Prior to Prohibition, there were thousands of breweries in the United States, mostly brewing heavier beers than modern US beer drinkers are used to. Beginning in 1920, most of these breweries went out of business, although some converted to soft drinks and other businesses.
+              Prior to Prohibition, there were thousands of breweries in the
+              United States, mostly brewing heavier beers than modern US beer
+              drinkers are used to. Beginning in 1920, most of these breweries
+              went out of business, although some converted to soft drinks and
+              other businesses.
             </p>
           </div>
         </div>
@@ -176,6 +192,20 @@
         </h2>
         <button class="help_btn">Go to Help Center</button>
       </div>
+
+
+<!-- Cookies -->
+
+<div id="cookie-banner">
+  <p>This website uses cookies. By continuing to browse, you consent to the use of cookies.</p>
+  <button id="accept-cookies-btn">Accept</button>
+</div>
+
+<script src="
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
+"></script>
+
+
 
       <!-- footer -->
 
@@ -209,37 +239,62 @@
           >
         </div>
       </footer>
-
-      <!-- <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
-      <script src="node_modules/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
-      <script>
-        const splide = new Splide('.splide', {
-          type: 'loop',
-          drag: 'free',
-          arrows: false,
-          pagination: false,
-          focus: 'center',
-          autoScroll: {
-            speed: 1.5,
-          },
-          perPage: 3,
-          breakpoints: {
-            930: {
-              perPage: 2,
-              gap: '.7rem',
-            },
-            550: {
-              perPage: 1,
-              gap: '.7rem',
-            },
-          },
-        });
-
-        splide.mount(window.splide.Extensions);
-      </script> -->
     </div>
 
-    <script src="node_modules/axios/dist/axios.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- cookies ეს მუშაობდა სატესტო რეჟიმში, მაგრამ აქ ვერ ავამუშავე და ერორიც ვერ ვიპოვე სამწუხაროდ
+javascriptis ნაწილშიც ორი ვერსია მაქვს ერთი ჩემით დაკავშირებული, ერთი chatGPT დაგენერირებული 
+
+
+ამ ერორს აგდებდა და username value დავაკავშირე თითქოს, მაგრამ საბმიტის მერე გვერდს თიშავდა და cookies არ ინახავდა უსერნეიმს
+
+// Accept cookies
+let savedUserName = Cookies.get('user_save_username');
+
+if (savedUserName){
+    document.getElementById('username').value = savedUserName;
+    document.getElementById('save').checked = true;
+}
+
+
+
+ესაა სატესტოდ გამზადებული, რომელიც ცალკე მუშაობს-->
+
+<!-- <section>
+  <form action="" id="login">
+      <div>
+          <input type="text" name="username" id="username">
+          <input type="checkbox" id="save">
+      </div>
+      <div>
+          <input type="password" id="password" name="mypassword">
+
+      </div>
+      <button type="submit">Submit</button>
+  </form>
+</section>
+
+
+<script src="
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
+"></script>
+
+
+
+<div id="cookie-banner">
+  <p>This website uses cookies. By continuing to browse, you consent to the use of cookies.</p>
+  <button id="accept-cookies-btn">Accept</button>
+</div> -->

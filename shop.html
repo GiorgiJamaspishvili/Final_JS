@@ -1,230 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <script src="https://kit.fontawesome.com/d4e5e958a8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="icon" href="image/clay.png" type="image/icon type">
-    <link rel="icon" href="photos/beer-mug-icon.svg" type="image/icon type">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script
+      src="https://kit.fontawesome.com/d4e5e958a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" href="image/clay.png" type="image/icon type" />
+    <link rel="icon" href="photos/beer-mug-icon.svg" type="image/icon type" />
     <title>BeerMania</title>
-</head>
+  </head>
 
-
-
-
-
-
-<body>
-
+  <body>
     <div class="main_conteiner">
-        <!-- Shop Header -->
+      <!-- Shop Header -->
 
+      <header class="home_page_header">
+        <i class="fa-solid fa-beer-mug-empty menu_bar_icon"></i>
 
-<header class="home_page_header">
-    <i class="fa-solid fa-beer-mug-empty menu_bar_icon " ></i>
-    
-    <nav class="header_nav" >
-        <i class="fa-solid fa-xmark close_icon "></i>
-        <ul class="header_ul" >
-            <li><a class="nav_a  " href="index.html">Home</a></li>
-            <li><a class="nav_a shop_a " href="shop.html">Shop</a></li>
-            <li><a class="nav_a  " href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="header_nav">
+          <i class="fa-solid fa-xmark close_icon"></i>
+          <ul class="header_ul">
+            <li><a class="nav_a" href="index.html">Home</a></li>
+            <li><a class="nav_a shop_a" href="shop.html">Shop</a></li>
+            <li><a class="nav_a" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
 
-    <div>
-        <p class="main_logo">Beer<span class="logo_span">Mania</span></p>
-    </div>
-
-    <div class="header_icon_div">
-        <a class="header_a_icon" href="contact.html">Beer Up</a>
-    </div>
-
-</header>
-        
-
-        
-
-        <!-- search -->
-        <div class="search_div">
-
-            <h5 class="shop_h5">Shop By <br class="shop_br"> Category</h5>
-
-            <form class="search_form" action="">
-                <input class="shop_input" type="search" id="search" name="for-search"
-                    placeholder="Search For Anything">
-                <button class="shop_search_btn" type="submit">SEARCH</button>
-
-            </form>
-
+        <div>
+          <p class="main_logo">Beer<span class="logo_span">Mania</span></p>
         </div>
 
-        <!-- section -->
+        <div class="header_icon_div">
+          <a class="header_a_icon" href="contact.html">Beer Up</a>
+        </div>
+      </header>
 
-        <section class="shop_section">
-            <div class="category_div">
-                <h2 class="category_h2">All Category</h2>
-                <p class="category_p">Sort</p>
-            </div>
+      <i class="fa-solid fa-arrow-up-from-ground-water" id="upup"></i>
 
+      <!-- search -->
+      <div class="search_div">
+        <h5 class="shop_h5">
+          Shop By <br class="shop_br" />
+          Category
+        </h5>
 
-            <div class="top_figur_div">
-                <figure class="shop_figure">
-                    <img class="shop_fg_img" src="./photos/1bud.jpg" alt="">
+        <form class="search_form" action="">
+          <input
+            class="shop_input"
+            type="search"
+            id="search"
+            name="for-search"
+            placeholder="Search For Anything"
+          />
+          <button class="shop_search_btn" type="submit">SEARCH</button>
+        </form>
+      </div>
 
-                    <figcaption class="shop_figcaption">
-                        <p class="pr_name">Budweiser</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
+      <!-- section -->
 
-                </figure>
+      <section class="shop_section">
+        <div class="category_div">
+          <h2 class="category_h2">All Category</h2>
+          <p class="category_p">Sort</p>
+        </div>
 
-                <figure class="shop_figure">
-                    <img class="shop_fg_img" src="./photos/3stella.png" alt="">
+        <div class="top_figur_div">
+          <figure class="shop_figure">
+            <img class="shop_fg_img" src="./photos/1bud.jpg" alt="" />
 
-                    <figcaption class="shop_figcaption" v>
-                        <p class="pr_name">Stella Artos</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
-                </figure>
-
-                <figure class="shop_figure">
-                    <img class="shop_fg_img" src="./photos/5leffe.jpg" alt="">
-                    <figcaption class="shop_figcaption">
-                        <p class="pr_name">Leffe</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
-                </figure>
-
-                <figure class="shop_figure for_mobile-responsive ">
-                    <img class="shop_fg_img " src="./photos/6paulaner.jpg" alt="">
-                    <figcaption class="shop_figcaption">
-                        <p class="pr_name">Paulaner</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="down_figure_div">
-                <figure class="shop_figure">
-                    <img class="shop_fg_img" src="./photos/7guinness.jpg" alt="">
-
-                    <figcaption class="shop_figcaption">
-                        <p class="pr_name">Guinness</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
-
-                </figure>
-
-                <figure class="shop_figure">
-                    <img class="shop_fg_img" src="./photos/8kilkenny.jpg" alt="">
-
-                    <figcaption class="shop_figcaption" v>
-                        <p class="pr_name">Kilkenny</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
-                </figure>
-
-                <figure class="shop_figure">
-                    <img class="shop_fg_img" src="./photos/1bud.jpg" alt="">
-                    <figcaption class="shop_figcaption">
-                        <p class="pr_name">Budweiser</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
-                </figure>
-
-                <figure class="shop_figure">
-                    <img class="shop_fg_img" src="./photos/3stella.png" alt="">
-                    <figcaption class="shop_figcaption">
-                        <p class="pr_name">Stella Artos</p>
-                        <div class="price_div">
-                            <p class="p_for_dolar">$4.00</p>
-                            <i class="fa-solid fa-cart-plus product_icon "></i>
-                        </div>
-                    </figcaption>
-                </figure>
-
-            </div>
-        </section>
-
-        <!-- page bar -->
-
-  
-        <section class="shop_sec2">
-            <div class="container-filter">
-              <div class="search-block">
-                <h2>MUST TASTE!</h2>
-                <input type="search" id="filter" />
+            <figcaption class="shop_figcaption">
+              <p class="pr_name">Budweiser</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
               </div>
-      
-          
-      
-              <ul id="result" class="user-name-list"></ul>
-            </div>
-          </section>
+            </figcaption>
+          </figure>
 
+          <figure class="shop_figure">
+            <img class="shop_fg_img" src="./photos/3stella.png" alt="" />
 
-        <!-- footer -->
+            <figcaption class="shop_figcaption" v>
+              <p class="pr_name">Stella Artos</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
+              </div>
+            </figcaption>
+          </figure>
 
+          <figure class="shop_figure">
+            <img class="shop_fg_img" src="./photos/5leffe.jpg" alt="" />
+            <figcaption class="shop_figcaption">
+              <p class="pr_name">Leffe</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
+              </div>
+            </figcaption>
+          </figure>
 
-        <footer>
-            <div class="ft_div">
-                <h4 class="ft_h4">Help</h4>
-                <p class="ft_p1">Help Center</p>
-                <p>Privacy Settings</p>
-                <div class="footer_icon_div">
-      
-                    <a href=" https://www.youtube.com/ "> <i class="fa-brands fa-youtube youtube "></i> </a>
-      
-                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram instagram "></i> </a>
-                    <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook facebook "></i></a>
-      
-      
-                </div>
-            </div>
-            <img class="ft_logo" src="./photos/img_beer_logo.jpg" alt="">
-            <div class="contact_div">
-              
-                <a class="tel" href="tel:+123 45 67  89">+123 45 67 89</a>
-                <a class="mail" href="mailto:example@mail.com">example@mail.com</a>
-                <a class="map" href="http://goo.gl/maps/2tS39RatZdvn7NWR6" target="_blank">Rustaveli avenue, 30</a>
-            </div>
-        </footer>
+          <figure class="shop_figure for_mobile-responsive">
+            <img class="shop_fg_img" src="./photos/6paulaner.jpg" alt="" />
+            <figcaption class="shop_figcaption">
+              <p class="pr_name">Paulaner</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="down_figure_div">
+          <figure class="shop_figure">
+            <img class="shop_fg_img" src="./photos/7guinness.jpg" alt="" />
 
+            <figcaption class="shop_figcaption">
+              <p class="pr_name">Guinness</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
+              </div>
+            </figcaption>
+          </figure>
 
+          <figure class="shop_figure">
+            <img class="shop_fg_img" src="./photos/8kilkenny.jpg" alt="" />
 
+            <figcaption class="shop_figcaption" v>
+              <p class="pr_name">Kilkenny</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="shop_figure">
+            <img class="shop_fg_img" src="./photos/1bud.jpg" alt="" />
+            <figcaption class="shop_figcaption">
+              <p class="pr_name">Budweiser</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="shop_figure">
+            <img class="shop_fg_img" src="./photos/3stella.png" alt="" />
+            <figcaption class="shop_figcaption">
+              <p class="pr_name">Stella Artos</p>
+              <div class="price_div">
+                <p class="p_for_dolar">$4.00</p>
+                <i class="fa-solid fa-cart-plus product_icon"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- page bar -->
+
+      <section class="shop_sec2">
+        <div class="container-filter">
+          <div class="search-block">
+            <h2>MUST TASTE!</h2>
+            <input type="search" id="filter" />
+          </div>
+
+          <ul id="result" class="user-name-list"></ul>
+        </div>
+      </section>
+
+      <!-- footer -->
+
+      <footer>
+        <div class="ft_div">
+          <h4 class="ft_h4">Help</h4>
+          <p class="ft_p1">Help Center</p>
+          <p>Privacy Settings</p>
+          <div class="footer_icon_div">
+            <a href=" https://www.youtube.com/ ">
+              <i class="fa-brands fa-youtube youtube"></i>
+            </a>
+
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook facebook"></i
+            ></a>
+          </div>
+        </div>
+        <img class="ft_logo" src="./photos/img_beer_logo.jpg" alt="" />
+        <div class="contact_div">
+          <a class="tel" href="tel:+123 45 67  89">+123 45 67 89</a>
+          <a class="mail" href="mailto:example@mail.com">example@mail.com</a>
+          <a
+            class="map"
+            href="http://goo.gl/maps/2tS39RatZdvn7NWR6"
+            target="_blank"
+            >Rustaveli avenue, 30</a
+          >
+        </div>
+      </footer>
     </div>
 
-
-
-    <script src="node_modules/axios/dist/axios.js"></script>
-    <!-- <script src="burgerForShop.js"></script> -->
-    <script src="axios.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

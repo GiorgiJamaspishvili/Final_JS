@@ -99,6 +99,15 @@ li:hover::after {
   color: #ffffff;
 }
 
+/* Scroll to */
+.fa-arrow-up-from-ground-water {
+  position: fixed;
+  font-size: 3rem;
+  right: 5px;
+  bottom: 20px;
+  color: #eab932;
+}
+
 /* Main Photo */
 
 .div_for_mainphot {
@@ -723,11 +732,9 @@ footer {
   justify-content: space-between;
 }
 
-
-
 /* Shop Sec 2 */
 
-.shop_sec2{
+.shop_sec2 {
   text-align: center;
 }
 
@@ -736,10 +743,10 @@ footer {
   margin-top: 500px;
 }
 
-.search-block{
- margin-left: 50%;
+.search-block {
+  margin-left: 50%;
 }
-.user-name-list{
+.user-name-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -751,14 +758,6 @@ footer {
   width: 100px;
 }
 
-
-
-
-
-
-
-
-
 /* Contact Page */
 
 /* Section 1 */
@@ -769,6 +768,8 @@ footer {
 
 .section_for_main_photo {
   position: relative;
+  /* background-image: url(../photos/8crafted.jpg); */
+  background-size: cover;
 }
 
 .contact_main_photo {
@@ -783,7 +784,7 @@ footer {
 .div_for_contact {
   position: absolute;
   width: 26%;
-  background: rgba(64, 33, 1, 0.73);
+  background: rgba(231, 138, 46, 0.73);
   border: 1px solid #ffffff;
   box-shadow: -1px -1px 4px #ffffff;
   border-radius: 10px;
@@ -794,86 +795,47 @@ footer {
 .div_contact {
   width: 88%;
   margin-inline: auto;
-  padding: 24px 30px;
+  padding: 25px 30px;
 }
 
-.contact_h2 {
-  margin-bottom: 40px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
-  color: #ffffff;
+#username-field,
+#password-field,
+#password-field2,
+#emailField{
+  outline: none;
+  border-radius: 5px;
 }
 
-.contact_form {
-  width: 100%;
+.div_4 {
   display: flex;
   flex-direction: column;
-  gap: 36px;
 }
 
-.name_email_div {
-  width: 100%;
+
+.form_div2{
   display: flex;
-  justify-content: space-between;
-}
-
-.contact_input {
-  width: 45%;
-  border-radius: 10px;
-  border: 2px solid #ffffff;
-  padding: 12px 0px 11px 8px;
-  background: transparent;
-  outline: none;
-  color: white;
-}
-
-.contact_input::placeholder {
+  flex-direction: column;
+  padding: 7px;
+  gap: 10px;
   font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.9rem;
-  line-height: 17px;
-  color: rgba(255, 255, 255, 0.76);
+  color: #402101;
+  font-size: 1rem;
+  font-weight: 500;
+  
 }
 
-.message_contact {
-  width: 100%;
-  padding: 8px 0px 71px 8px;
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
-  outline: none;
-  color: white;
+.validateBtn {
+  width: 120px;
+  height: auto;
+  /* background-color: black; */
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 70px;
+  margin-top: 20px;
 }
-
-.message_contact::placeholder {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: rgba(255, 255, 255, 0.76);
-}
-
-.contact_submit_btn {
-  width: 33%;
-  height: 56px;
-  background: #d5906e;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-.contact_span {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
+.error-text {
+  color: red;
 }
 
 /* article */
@@ -901,7 +863,6 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* border: 5px solid yellow; */
 }
 
 .article_contact_main_div {
@@ -928,4 +889,33 @@ footer {
 .contact_map {
   width: 68%;
   height: 320px;
+}
+
+
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #b118c9;
+  padding: 10px;
+  text-align: center;
+  z-index: 9999;
+}
+
+#cookie-banner p {
+  margin: 0;
+}
+
+#accept-cookies-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#username{
+  outline: none;
 }
