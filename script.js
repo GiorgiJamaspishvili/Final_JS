@@ -58,7 +58,7 @@ window.onscroll = function () {
 
 
 
-// Slider
+// Slider, რომელიც axios/fetch-თან არ მუშაობს
 
 // let dataSlider = [
 //   {
@@ -168,7 +168,6 @@ let listItems = [];
 
 axios
   .get("https://api.punkapi.com/v2/beers")
-  // .then((response) => console.log("axios", response.data));
   .then((responseData) => {
     responseData.data.forEach((item) => {
 let li = document.createElement('li');
@@ -221,19 +220,10 @@ let pName = document.createElement("p");
 
 
 
+// axios გათიშა ასევე ვალიდაციის ველიც და არ აგდებდა ერორებს,
+//აქსიოსის გარეშე მუშაობს
 
-
-
-
-
-
-
-
-
-
-
-
-// test form validtion
+// validtion
 let formElement = document.getElementById("registration-form");
 
 formElement.addEventListener("submit", function(e) {
@@ -372,32 +362,6 @@ if (savedUserName){
     document.getElementById('username').value = savedUserName;
     document.getElementById('save').checked = true;
 }
-
-
-// function setCookieExpiration(days) {
-//   let  date = new Date();
-//   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-//   return date.toUTCString();
-// }
-// function setCookie(cookieName, cookieValue, expirationDays) {
-//   let  expires = "expires=" + setCookieExpiration(expirationDays);
-//   document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
-// }
-// function isCookieAccepted() {
-//   return document.cookie.includes("cookieAccepted=true");
-// }
-// function hideCookieBanner() {
-//   document.getElementById("cookie-banner").style.display = "none";
-// }
-// function acceptCookies() {
-//   setCookie("cookieAccepted", "true", 30); // Set the cookie for 30 days
-//   hideCookieBanner();
-// }
-// if (isCookieAccepted()) {
-//   hideCookieBanner();
-// }
-// // Add event listener to the accept button
-// document.getElementById("accept-cookies-btn").addEventListener("click", acceptCookies);
 
 
 if (!localStorage.getItem("cookiesAccepted")) {

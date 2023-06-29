@@ -858,14 +858,16 @@ color: #e37a11;
 }
 
 .validateBtn {
-  width: 120px;
+  width: 50%;
   height: auto;
-  /* background-color: black; */
-  color: goldenrod;
+  background-color: #a3570a;
+  color: rgb(247, 180, 10);
   font-size: 20px;
   font-weight: 600;
   margin-left: 70px;
   margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 .error-text {
   color: red;
