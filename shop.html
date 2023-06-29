@@ -21,7 +21,7 @@
     <div class="main_conteiner">
       <!-- Shop Header -->
 
-      <header class="home_page_header">
+      <header class="home_page_header" id="nav_scroll">
         <i class="fa-solid fa-beer-mug-empty menu_bar_icon"></i>
 
         <nav class="header_nav">
@@ -169,16 +169,19 @@
 
       <!-- page bar -->
 
-      <section class="shop_sec2">
+      <section>
         <div class="container-filter">
           <div class="search-block">
             <h2>MUST TASTE!</h2>
             <input type="search" id="filter" />
           </div>
-
+  
+      
+  
           <ul id="result" class="user-name-list"></ul>
         </div>
       </section>
+
 
       <!-- footer -->
 
@@ -214,6 +217,8 @@
       </footer>
     </div>
 
+
+    <script src="node_modules/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

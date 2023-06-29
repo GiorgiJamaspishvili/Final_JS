@@ -22,6 +22,10 @@
   transform: translate(-50%);
 }
 
+.home_page_header.scroll{
+background-color: rgb(3, 63, 3);
+}
+
 .menu_bar_icon {
   display: none;
 }
@@ -44,7 +48,7 @@ li::after {
   content: '';
   width: 0%;
   height: 3px;
-  background: #f44336;
+  background: #d5906e;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -740,8 +744,37 @@ footer {
 
 .container-filter {
   width: 100%;
-  margin-top: 500px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
+
+.search-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-filter h2{
+  margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+color: #e37a11;
+}
+
+#filter{
+  width: 100%;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+
+
+
 
 .search-block {
   margin-left: 50%;
@@ -919,3 +952,4 @@ footer {
 #username{
   outline: none;
 }
+
